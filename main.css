@@ -1,0 +1,52 @@
+div.calendar {
+    width: 365px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div.yesterday,
+div.today,
+div.tomorrow {
+    width: 115px;
+    text-align: center;
+    display: inline-block;
+    margin: 1px;
+    box-shadow: 1px 1px 1px 1px grey;
+}
+
+div.yesterday:hover,
+div.today:hover,
+div.tomorrow:hover {
+    box-shadow: 2px 2px 5px 3px grey;
+    transition-duration: 0.1s;
+}
+
+div.data {
+    font-size: 1.5em;
+    color: azure;
+    background-color: rgb(59, 153, 134);
+}
+
+div.temp {
+    font-size: 2.5em;
+}
+
+div.sun,
+div.snow,
+div.blizzard {
+    height: 100px;
+    width: 114px;
+    background-repeat: no-repeat;
+}
+
+div.sun {
+    background-image: url(weather-sun.jpg);
+}
+
+div.snow {
+    background-image: url(weather-snow.jpg);
+}
+
+div.blizzard {
+    background-image: url(weather-blizzard.jpg);
+}
